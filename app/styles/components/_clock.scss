@@ -1,0 +1,18 @@
+.clock {
+  display: flex;
+  align-items: center;
+  background: $clockBackgroundColour;
+  border: 2px solid $clockBorderColour;
+  border-radius: 50%;
+  height: 14rem;
+  width: 14rem;
+  justify-content: center;
+  margin: 4rem auto;
+}
+
+.clock-text {
+  color: $clockTextColour;
+  font-size: 3rem;
+  font-weight: 300;
+  font-family: monospace;
+}
